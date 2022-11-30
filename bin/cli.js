@@ -26,4 +26,4 @@ if (args.rolls) {
     rolls = 1; 
 }
 
-console.log(stringify(roll(sides, dice, rolls)));
+console.log(JSON.stringify(roll(sides, dice, rolls)));
